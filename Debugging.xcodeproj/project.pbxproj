@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE23D6991CC038310073E223 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BEAB55BD1CBE17F400D5EA4F /* Debugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAB55C01CBE17F400D5EA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEAB55C21CBE17F400D5EA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		BEAB55B41CBE17F400D5EA4F = {
 			isa = PBXGroup;
 			children = (
+				BE23D6991CC038310073E223 /* LICENSE.md */,
 				BEAB55BF1CBE17F400D5EA4F /* Debugging */,
 				BEAB55D41CBE17F400D5EA4F /* DebuggingTests */,
 				BEAB55DF1CBE17F400D5EA4F /* DebuggingUITests */,
@@ -485,6 +487,7 @@
 				BEAB55E71CBE17F400D5EA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEAB55E81CBE17F400D5EA4F /* Build configuration list for PBXNativeTarget "DebuggingTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +496,7 @@
 				BEAB55EA1CBE17F400D5EA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEAB55EB1CBE17F400D5EA4F /* Build configuration list for PBXNativeTarget "DebuggingUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				BEAB55ED1CBE17F400D5EA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
