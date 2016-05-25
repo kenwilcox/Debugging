@@ -21,6 +21,8 @@ class ViewController: UIViewController {
             doSomething()
             print("Got number \(i)")
         }
+        
+        assert(myReallySlowMethod() == false, "The slow method returned false, which is a bad thing!")
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,6 +40,11 @@ class ViewController: UIViewController {
     
     func justKiddingThisIs() {
         print("see!")
+    }
+    
+    func myReallySlowMethod() -> Bool {
+        sleep(4);
+        return true;
     }
 }
 
